@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+	padding: 0;
+	perspective: 100%;
+}
+
+#left {
+	width: 10%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 1px -4px 17px grey;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+#start {
+	width: 80%;
+	height: 80vh;
+	margin: auto;
+	box-sizing: border-box;
+	/*box-shadow: 1px -4px 17px grey;*/
+}
+
+div #start {
+	box-shadow: 1px -4px 17px grey;
+}
+
+#right {
+	width: 10%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-shadow: 1px -4px 17px grey;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+#bottom {
+	width: 80%;
+	height: 20vh;
+	position: absolute;
+	left: 10%;
+	box-sizing: border-box;
+	box-shadow: 1px -4px 18px #888888;
+	transform: rotateY(45deg);
+}
+
+#start p {
+	text-align: center;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#start #og {
+	font-style: italic;
+	/*margin-top: 5vh;*/
+}
+
+div #time {
+	width: 40%;
+	height: 10vh;
+	margin: 10vh auto;
+    padding: 10px 0;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#time h5 {
+	margin: auto;
+	padding: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+#time #display {
+	margin: auto;
+	width: 90%;
+	padding: 4px;
+	box-shadow: 1px -4px 17px grey;
+}
+
+div #mirror {
+	width: 40%;
+	height: 25vh;
+	margin: 10vh auto;
+    padding: 10px 0;
+    box-shadow: 5px 10px 18px #888888;
+    box-sizing: border-box;
+}
+
+div .countdown {
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+#mirror p {
+	box-shadow: 1px -4px 17px grey;
+}
+
+#mirror form {
+	text-align: center;
+    padding: 10px;
+}
+
+#mirror input {
+	width: 80%;
+	margin: 10px auto;
+    box-shadow: 1px -4px 17px grey;
+}

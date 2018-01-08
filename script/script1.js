@@ -9,13 +9,9 @@ function timeTo() {
 function mirror() {
 	var tik = new Date()
 
-	document.getElementById('h').innerHTML = tik.getHours()
-	document.getElementById('s').innerHTML = tik.getSeconds()
-	document.getElementById('m').innerHTML = tik.getMinutes()
-
-	// document.getElementById('h').innerHTML = 17 - tik.getHours()
-	// document.getElementById('m').innerHTML = 40 - tik.getMinutes()
-	// document.getElementById('s').innerHTML = 60 - tik.getSeconds()
+	// document.getElementById('h').innerHTML = tik.getHours()
+	// document.getElementById('s').innerHTML = tik.getSeconds()
+	// document.getElementById('m').innerHTML = tik.getMinutes()
 
 	document.getElementById('cdh').innerHTML = 23 - tik.getHours()
 	document.getElementById('cdm').innerHTML = 60 - tik.getMinutes()

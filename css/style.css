@@ -6,7 +6,9 @@ body {
 #start {
 	width: 80%;
 	height: 80vh;
-	border: 1px solid black;
+	border-left: 10vw solid grey;
+	border-bottom: 20vh solid black;
+	border-right: 10vw solid grey;
 	margin: auto;
 }
 
@@ -14,6 +16,7 @@ body {
 	text-align: center;
     padding: 10px;
     box-shadow: 5px 10px 18px #888888;
+    margin: 0;
 }
 
 div #time {
@@ -41,16 +44,20 @@ div #time {
 
 div #mirror {
 	width: 40%;
-	height: 20vh;
+	height: 25vh;
 	margin: 10vh auto;
     padding: 10px 0;
     box-shadow: 5px 10px 18px #888888;
     box-sizing: border-box;
 }
 
-div .sec {
+div .countdown {
 	width: 50%;
 	height: 100%;
 	display: inline-block;
 	float: left;
+}
+
+#mirror p {
+	box-shadow: 1px -4px 17px grey;
 }

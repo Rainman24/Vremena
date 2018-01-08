@@ -24,3 +24,17 @@ console.log(atm.getSeconds().toString().length)
 
 
 console.log(atm.getTime())
+
+	var tik = new Date()
+	var padded = function() {
+		var tik = new Date()
+		console.log(tik.getSeconds())
+		if(tik.getSeconds().toString().length<2) {
+			return '0' + tik.getSeconds().toString()
+
+		}
+	}
+	console.log(padded)
+
+
+console.log(padded)
