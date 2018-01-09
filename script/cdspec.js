@@ -8,23 +8,26 @@ var hours = []
 var mad = 4
 var minutes = []
 
-var sad = 5
+var sad = 12
 var seconds = []
 
 for( h=0; h<had; h++) {
-	console.log('HOURS', h)
-	hours.push(h)
+	// console.log('HOURS', h)
+	// hours.push(h)
 	for( m=0; m<mad; m++) {
-		console.log('minutes', m)
-		minutes.push(m)
+		// console.log('minutes', m)
+		// minutes.push(m)
 		for( s=0; s<sad; s++) {
-			seconds.push(s)
-			console.log('s', s)
+			// seconds.push(s)
+			// console.log('s', s)
+			if(s.toString().length<2) {
+				console.log('0' + s.toString())
+				} else {	console.log(s) }
 		}
 	}
 }
 
-console.log(hours)
-console.log(minutes)
-console.log(seconds)
-console.log(seconds.length)
+// console.log(hours)
+// console.log(minutes)
+// console.log(seconds)
+// console.log(seconds.length)

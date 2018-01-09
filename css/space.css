@@ -45,7 +45,6 @@ div #start {
 	left: 10%;
 	box-sizing: border-box;
 	box-shadow: 1px -4px 18px #888888;
-	transform: rotateY(45deg);
 }
 
 #start p {
