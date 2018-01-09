@@ -64,8 +64,8 @@ body {
 }
 
 #left p {
-	padding-top: 33%;
-	padding-right: 4%;
+	padding-top: 50%;
+	text-align: left;
 }
 
 #nav {

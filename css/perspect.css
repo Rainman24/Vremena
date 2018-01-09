@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#cube {
+	margin: 50px;
+	padding: 10px;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	perspective: 150px;
+	perspective-origin: 50% 50%;
+}
+
+#bottom {
+	position: absolute;
+	/*top: 50%;*/
+	/*width: 150px;
+	height: 150px;*/
+	background: rgba(0, 128, 0, 0.7);
+	/*background-color: green;*/
+	border: 1px solid black;
+	transform: rotateX(45deg);
+}
+
+#left {
+	position: absolute;
+	/*left: 50%;*/
+	/*width: 150px;
+	height: 150px;*/
+	background: rgba(143, 143, 143, 0.7);
+	/*background-color: grey;*/
+	border: 1px solid black;
+	transform: rotateY(-45deg);
+}
