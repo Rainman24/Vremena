@@ -55,20 +55,25 @@ body {
 
 #left {
 	position: absolute;
-	top: 15%;
+	top: 4%;
 	left: 20%;
 	width: 10%;
-	height: 80%;
+	height: 78%;
 	border: 4px solid black;
 	transform: rotateY(45deg);
 }
 
+#left p {
+	padding-top: 33%;
+	padding-right: 4%;
+}
+
 #nav {
 	position: absolute;
-	top: 15%;
+	top: 2%;
 	left: 40%;
 	width: 10%;
-	height: 80%;
+	height: 83%;
 	border: 5px solid black;
 	transform: rotateY(65deg);
 	box-sizing: border-box;
@@ -127,6 +132,16 @@ p {
 	box-shadow: 5px 10px 20px grey inset;
 }
 
+#three:hover {
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: 5px 10px 20px grey inset;
+}
+
 .bar p:hover {
 	background-color: black;
+}
+
+#left:hover {
+	background-image: url('../images/Shaggy.gif');
+	background-size: cover;
 }
