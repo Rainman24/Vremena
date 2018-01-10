@@ -1,3 +1,5 @@
+// Spinning on keyup,down,left,right Function
+
 (function () {
 	var rotateY = 0,
 		  rotateX = 0;
@@ -13,3 +15,10 @@
       'rotateX(' + rotateX + 'deg)';
     }
 })();
+
+var refresh = setInterval(timeTo, 1000)
+
+function timeTo() {
+	var now = new Date()
+	document.getElementById('display').innerHTML = now.toLocaleTimeString()
+}

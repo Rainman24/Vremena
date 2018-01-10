@@ -38,6 +38,7 @@ body {
 	width: 800px;
 	transform: rotateX(-90deg) translateZ(200px) translateX(-200px);
 }
+
 .left {
 	transform: rotateY(-90deg) translateZ(200px);
 }
@@ -64,6 +65,11 @@ body {
 .back {
 	width: 600px;
 	transform: rotateY(180deg) translateZ(200px);
+}
+
+#display {
+	transform: rotateY(180deg) translateZ(200px);
+	display: inline-block;
 }
 
 .side:hover {
