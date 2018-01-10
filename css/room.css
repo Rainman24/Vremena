@@ -10,6 +10,7 @@ body {
 	box-shadow: 5px 10px 20px grey inset;
 	perspective: 162px;
 	position: relative;
+	overflow: hidden;
 }
 
 #up {	
@@ -56,11 +57,12 @@ body {
 #left {
 	position: absolute;
 	top: 4%;
-	left: 20%;
+	left: 15%;
 	width: 10%;
 	height: 78%;
 	border: 4px solid black;
 	transform: rotateY(45deg);
+	overflow: hidden;
 }
 
 #left p {
@@ -127,10 +129,10 @@ p {
 	/*color: white;*/
 }
 
-#two:hover {
+/*#two:hover {
 	background: rgba(255, 255, 255, 0.5);
 	box-shadow: 5px 10px 20px grey inset;
-}
+}*/
 
 #three:hover {
 	background: rgba(255, 255, 255, 0.5);
@@ -144,4 +146,21 @@ p {
 #left:hover {
 	background-image: url('../images/Shaggy.gif');
 	background-size: cover;
+	overflow: scroll;
+}
+
+#floor p {
+	padding-bottom: 20px;
+}
+
+#floor:hover {
+	background-color: white;
+	border-left: 11px solid black;
+	border-right: 6px solid black;
+	z-index: 41;
+	height: 25%;
+	font-size: 27px;
+	overflow: scroll;
+	transform: rotateX(35deg);
+	box-shadow: 5px 10px 50px grey inset;
 }
